@@ -6,6 +6,7 @@
 #import "AFViewController.h"
 #import "BlocksKitViewController.h"
 #import "BlocksKit2ViewController.h"
+#import "EnumerateViewController.h"
 
 @interface TableViewController ()
 
@@ -27,6 +28,7 @@
                   @"Using AFNetworking",
                   @"BlocksKit",
                   @"BlocksKit2",
+                  @"Enumerate",
                   ];
     }
     return self;
@@ -105,6 +107,11 @@
         }
         case 6: {
             BlocksKit2ViewController *vc = [[BlocksKit2ViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 7: {
+            EnumerateViewController *vc = [[EnumerateViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
