@@ -1,23 +1,14 @@
-#import "RecycleReferenceViewController.h"
+#import "CircularReferenceViewController.h"
 #import "SomeView.h"
 
-@interface RecycleReferenceViewController ()
+@interface CircularReferenceViewController ()
 
 @property (nonatomic, copy) void (^block)();
 @property (nonatomic, strong) SomeView *someView;
 
 @end
 
-@implementation RecycleReferenceViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+@implementation CircularReferenceViewController
 
 - (void)dealloc
 {
@@ -27,14 +18,14 @@
 - (void)loadView
 {
     [super loadView];
-
-    self.title = @"Recycle reference";
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = @"Recycle reference";
 
 // Recycle reference occured
 //    self.block = ^{

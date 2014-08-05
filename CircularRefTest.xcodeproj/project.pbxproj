@@ -20,10 +20,19 @@
 		84D7FDF6198FE7950001ECC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D7FDF4198FE7950001ECC2 /* InfoPlist.strings */; };
 		84D7FDF8198FE7950001ECC2 /* LeakTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7FDF7198FE7950001ECC2 /* LeakTestTests.m */; };
 		84D7FE05198FE8690001ECC2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7FE04198FE8690001ECC2 /* TableViewController.m */; };
-		84D7FE0B198FE9A30001ECC2 /* RecycleReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7FE0A198FE9A30001ECC2 /* RecycleReferenceViewController.m */; };
+		84D7FE0B198FE9A30001ECC2 /* CircularReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7FE0A198FE9A30001ECC2 /* CircularReferenceViewController.m */; };
 		84D7FE0E198FEDC50001ECC2 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7FE0D198FEDC50001ECC2 /* Util.m */; };
 		84D7FE11198FEDDF0001ECC2 /* SharedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7FE10198FEDDF0001ECC2 /* SharedObjectViewController.m */; };
 		84D7FE14198FEEAC0001ECC2 /* SomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7FE13198FEEAC0001ECC2 /* SomeView.m */; };
+		D6B9F8B9199093FD00E01F93 /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F8B8199093FD00E01F93 /* DelegateViewController.m */; };
+		D6B9F8BC1990943100E01F93 /* SomeDelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F8BB1990943100E01F93 /* SomeDelegateView.m */; };
+		D6B9F8BF1990983200E01F93 /* BlocksKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F8BE1990983200E01F93 /* BlocksKitViewController.m */; };
+		D6B9F8C21990997000E01F93 /* SomeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F8C11990997000E01F93 /* SomeLabel.m */; };
+		D6B9F8C519909C5A00E01F93 /* BlocksKit2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F8C419909C5A00E01F93 /* BlocksKit2ViewController.m */; };
+		D6B9F8C81990A00800E01F93 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F8C71990A00800E01F93 /* GCDViewController.m */; };
+		D6B9F8CB1990A10000E01F93 /* SomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9F8CA1990A10000E01F93 /* SomeButton.m */; };
+		D6E664211990906A00462686 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E664201990906A00462686 /* AFViewController.m */; };
+		D6E664241990919A00462686 /* SomeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E664231990919A00462686 /* SomeTextView.m */; };
 		E94077546961465F9FA6937B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF906853841749869CCF9D26 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +65,8 @@
 		84D7FDF7198FE7950001ECC2 /* LeakTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeakTestTests.m; sourceTree = "<group>"; };
 		84D7FE03198FE8690001ECC2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		84D7FE04198FE8690001ECC2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		84D7FE09198FE9A30001ECC2 /* RecycleReferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecycleReferenceViewController.h; sourceTree = "<group>"; };
-		84D7FE0A198FE9A30001ECC2 /* RecycleReferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecycleReferenceViewController.m; sourceTree = "<group>"; };
+		84D7FE09198FE9A30001ECC2 /* CircularReferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularReferenceViewController.h; sourceTree = "<group>"; };
+		84D7FE0A198FE9A30001ECC2 /* CircularReferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularReferenceViewController.m; sourceTree = "<group>"; };
 		84D7FE0C198FEDC50001ECC2 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		84D7FE0D198FEDC50001ECC2 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		84D7FE0F198FEDDF0001ECC2 /* SharedObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedObjectViewController.h; sourceTree = "<group>"; };
@@ -66,6 +75,24 @@
 		84D7FE13198FEEAC0001ECC2 /* SomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeView.m; sourceTree = "<group>"; };
 		95E05F095D214E7A84A4C2D2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CF906853841749869CCF9D26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B9F8B7199093FD00E01F93 /* DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		D6B9F8B8199093FD00E01F93 /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
+		D6B9F8BA1990943100E01F93 /* SomeDelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeDelegateView.h; sourceTree = "<group>"; };
+		D6B9F8BB1990943100E01F93 /* SomeDelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeDelegateView.m; sourceTree = "<group>"; };
+		D6B9F8BD1990983200E01F93 /* BlocksKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksKitViewController.h; sourceTree = "<group>"; };
+		D6B9F8BE1990983200E01F93 /* BlocksKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksKitViewController.m; sourceTree = "<group>"; };
+		D6B9F8C01990997000E01F93 /* SomeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeLabel.h; sourceTree = "<group>"; };
+		D6B9F8C11990997000E01F93 /* SomeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeLabel.m; sourceTree = "<group>"; };
+		D6B9F8C319909C5A00E01F93 /* BlocksKit2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksKit2ViewController.h; sourceTree = "<group>"; };
+		D6B9F8C419909C5A00E01F93 /* BlocksKit2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksKit2ViewController.m; sourceTree = "<group>"; };
+		D6B9F8C61990A00800E01F93 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		D6B9F8C71990A00800E01F93 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		D6B9F8C91990A10000E01F93 /* SomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeButton.h; sourceTree = "<group>"; };
+		D6B9F8CA1990A10000E01F93 /* SomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeButton.m; sourceTree = "<group>"; };
+		D6E6641F1990906A00462686 /* AFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
+		D6E664201990906A00462686 /* AFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
+		D6E664221990919A00462686 /* SomeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeTextView.h; sourceTree = "<group>"; };
+		D6E664231990919A00462686 /* SomeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,12 +159,30 @@
 				84D7FDE2198FE7950001ECC2 /* AppDelegate.m */,
 				84D7FE03198FE8690001ECC2 /* TableViewController.h */,
 				84D7FE04198FE8690001ECC2 /* TableViewController.m */,
-				84D7FE09198FE9A30001ECC2 /* RecycleReferenceViewController.h */,
-				84D7FE0A198FE9A30001ECC2 /* RecycleReferenceViewController.m */,
+				84D7FE09198FE9A30001ECC2 /* CircularReferenceViewController.h */,
+				84D7FE0A198FE9A30001ECC2 /* CircularReferenceViewController.m */,
 				84D7FE0F198FEDDF0001ECC2 /* SharedObjectViewController.h */,
 				84D7FE10198FEDDF0001ECC2 /* SharedObjectViewController.m */,
+				D6B9F8B7199093FD00E01F93 /* DelegateViewController.h */,
+				D6B9F8B8199093FD00E01F93 /* DelegateViewController.m */,
+				D6E6641F1990906A00462686 /* AFViewController.h */,
+				D6E664201990906A00462686 /* AFViewController.m */,
+				D6B9F8BD1990983200E01F93 /* BlocksKitViewController.h */,
+				D6B9F8BE1990983200E01F93 /* BlocksKitViewController.m */,
+				D6B9F8C319909C5A00E01F93 /* BlocksKit2ViewController.h */,
+				D6B9F8C419909C5A00E01F93 /* BlocksKit2ViewController.m */,
+				D6B9F8C61990A00800E01F93 /* GCDViewController.h */,
+				D6B9F8C71990A00800E01F93 /* GCDViewController.m */,
 				84D7FE12198FEEAC0001ECC2 /* SomeView.h */,
 				84D7FE13198FEEAC0001ECC2 /* SomeView.m */,
+				D6E664221990919A00462686 /* SomeTextView.h */,
+				D6E664231990919A00462686 /* SomeTextView.m */,
+				D6B9F8BA1990943100E01F93 /* SomeDelegateView.h */,
+				D6B9F8BB1990943100E01F93 /* SomeDelegateView.m */,
+				D6B9F8C01990997000E01F93 /* SomeLabel.h */,
+				D6B9F8C11990997000E01F93 /* SomeLabel.m */,
+				D6B9F8C91990A10000E01F93 /* SomeButton.h */,
+				D6B9F8CA1990A10000E01F93 /* SomeButton.m */,
 				84D7FE0C198FEDC50001ECC2 /* Util.h */,
 				84D7FE0D198FEDC50001ECC2 /* Util.m */,
 				84D7FDE4198FE7950001ECC2 /* Images.xcassets */,
@@ -306,12 +351,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B9F8C519909C5A00E01F93 /* BlocksKit2ViewController.m in Sources */,
 				84D7FE0E198FEDC50001ECC2 /* Util.m in Sources */,
-				84D7FE0B198FE9A30001ECC2 /* RecycleReferenceViewController.m in Sources */,
+				D6B9F8BF1990983200E01F93 /* BlocksKitViewController.m in Sources */,
+				84D7FE0B198FE9A30001ECC2 /* CircularReferenceViewController.m in Sources */,
 				84D7FE11198FEDDF0001ECC2 /* SharedObjectViewController.m in Sources */,
+				D6E664211990906A00462686 /* AFViewController.m in Sources */,
 				84D7FDE3198FE7950001ECC2 /* AppDelegate.m in Sources */,
+				D6B9F8CB1990A10000E01F93 /* SomeButton.m in Sources */,
+				D6B9F8C21990997000E01F93 /* SomeLabel.m in Sources */,
 				84D7FE14198FEEAC0001ECC2 /* SomeView.m in Sources */,
+				D6E664241990919A00462686 /* SomeTextView.m in Sources */,
+				D6B9F8B9199093FD00E01F93 /* DelegateViewController.m in Sources */,
 				84D7FE05198FE8690001ECC2 /* TableViewController.m in Sources */,
+				D6B9F8BC1990943100E01F93 /* SomeDelegateView.m in Sources */,
+				D6B9F8C81990A00800E01F93 /* GCDViewController.m in Sources */,
 				84D7FDDF198FE7950001ECC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,8 +485,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LeakTest/CircularRefTest-Prefix.pch";
-				INFOPLIST_FILE = "LeakTest/CircularRefTest-Info.plist";
+				GCC_PREFIX_HEADER = "CircularRefTest/CircularRefTest-Prefix.pch";
+				INFOPLIST_FILE = "CircularRefTest/CircularRefTest-Info.plist";
 				PRODUCT_NAME = CircularRefTest;
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,8 +499,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LeakTest/CircularRefTest-Prefix.pch";
-				INFOPLIST_FILE = "LeakTest/CircularRefTest-Info.plist";
+				GCC_PREFIX_HEADER = "CircularRefTest/CircularRefTest-Prefix.pch";
+				INFOPLIST_FILE = "CircularRefTest/CircularRefTest-Info.plist";
 				PRODUCT_NAME = CircularRefTest;
 				WRAPPER_EXTENSION = app;
 			};

@@ -1,6 +1,11 @@
 #import "TableViewController.h"
-#import "RecycleReferenceViewController.h"
+#import "CircularReferenceViewController.h"
 #import "SharedObjectViewController.h"
+#import "DelegateViewController.h"
+#import "GCDViewController.h"
+#import "AFViewController.h"
+#import "BlocksKitViewController.h"
+#import "BlocksKit2ViewController.h"
 
 @interface TableViewController ()
 
@@ -17,6 +22,11 @@
         _rows = @[
                   @"Recycle reference",
                   @"Shared Object",
+                  @"Delegate",
+                  @"GCD",
+                  @"Using AFNetworking",
+                  @"BlocksKit",
+                  @"BlocksKit2",
                   ];
     }
     return self;
@@ -26,11 +36,7 @@
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.title = @"Circular Ref Test";
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,12 +74,37 @@
 {
     switch (indexPath.row) {
         case 0: {
-            RecycleReferenceViewController *vc = [[RecycleReferenceViewController alloc] init];
+            CircularReferenceViewController *vc = [[CircularReferenceViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
         case 1: {
             SharedObjectViewController *vc = [[SharedObjectViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 2: {
+            DelegateViewController *vc = [[DelegateViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 3: {
+            GCDViewController *vc = [[GCDViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 4: {
+            AFViewController *vc = [[AFViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 5: {
+            BlocksKitViewController *vc = [[BlocksKitViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 6: {
+            BlocksKit2ViewController *vc = [[BlocksKit2ViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
